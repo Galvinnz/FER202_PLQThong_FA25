@@ -1,5 +1,5 @@
 export function Exercise2() {
-    //1.Tạo 1 mảng số nguyrn, in ra danh sách list
+    //1.Tạo 1 mảng số nguyên, in ra danh sách list
     const numbers = [1, 12, -3, 4, 15, 20, -10, 8, 7, 6];
     //2.Tính tổng các phẩn tử trong mảng
     const sum = numbers.reduce((acc, curr) => acc + curr, 0);
