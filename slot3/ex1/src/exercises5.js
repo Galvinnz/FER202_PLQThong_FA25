@@ -13,3 +13,7 @@ const teens = people
 	.map(p => `${p.name} (${p.age})`);
 
 teens.forEach(str => console.log(str));
+// Kết quả:
+// Ann (19)
+// Cindy (15)
+// Eva (13)

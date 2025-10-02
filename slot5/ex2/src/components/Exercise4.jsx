@@ -21,5 +21,5 @@ export function Exercise4() {
             <p>Third: {third}</p>
             <p>Rest Ages: {JSON.stringify(restAges)}</p>
         </div>
-    );
+    );  
 }
