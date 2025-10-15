@@ -1,0 +1,28 @@
+/* Footer basic styling */
+footer {
+    background-color: #f8f9fa;   /* Màu nền xám nhạt */
+    text-align: center;          /* Căn giữa toàn bộ nội dung */
+    padding: 1rem 0;             /* Khoảng cách trên/dưới */
+    margin-top: 2rem;            /* Tạo khoảng cách với phần trên */
+    border-top: 1px solid #ddd;  /* Viền mảnh phía trên footer */
+    color: #333;                 /* Màu chữ xám đậm */
+    font-size: 0.95rem;          /* Cỡ chữ nhỏ hơn một chút */
+  }
+  
+  /* Add spacing between lines */
+  footer p {
+    margin: 0.25rem 0;           /* Tăng khoảng cách giữa các dòng */
+  }
+  
+  /* Style the email link */
+  footer a {
+    color: #007bff;              /* Màu xanh của link */
+    text-decoration: none;       /* Bỏ gạch chân mặc định */
+  }
+  
+  /* Hover effect cho link */
+  footer a:hover {
+    text-decoration: underline;  /* Khi hover thì hiện gạch chân */
+    color: #0056b3;              /* Đậm hơn một chút */
+  }
+  
