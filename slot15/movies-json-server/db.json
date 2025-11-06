@@ -1,0 +1,78 @@
+{
+  "genres": [
+    {
+      "id": "1",
+      "name": "Sci-Fi"
+    },
+    {
+      "id": "2",
+      "name": "Comedy"
+    },
+    {
+      "id": "3",
+      "name": "Drama"
+    },
+    {
+      "id": "4",
+      "name": "Horror"
+    },
+    {
+      "id": "5",
+      "name": "Romance"
+    },
+    {
+      "id": "6",
+      "name": "Action"
+    },
+    {
+      "id": "7",
+      "name": "Thriller"
+    }
+  ],
+  "movies": [
+    {
+      "id": "1",
+      "title": "Galactic Wars",
+      "description": "Epic space battles decide the fate of a fractured galaxy as rival factions clash for control.",
+      "poster": "/images/movie1.jpg",
+      "genreId": 1,
+      "year": 2022,
+      "country": "USA",
+      "duration": 132,
+      "avatar": "https://via.placeholder.com/100x100?text=1"
+    },
+    {
+      "id": "2",
+      "title": "Laugh Out Loud",
+      "description": "A feel-good comedy about friendship, failure, and second chances in a small town.",
+      "poster": "/images/movie2.jpg",
+      "genreId": 2,
+      "year": 2021,
+      "country": "UK",
+      "duration": 105,
+      "avatar": "https://via.placeholder.com/100x100?text=2"
+    },
+    {
+      "id": "3",
+      "title": "Deep Blue",
+      "description": "A gripping survival drama set far from shore when a voyage goes wrong.",
+      "poster": "/images/movie3.jpg",
+      "genreId": 3,
+      "year": 2019,
+      "country": "Australia",
+      "duration": 118,
+      "avatar": "https://via.placeholder.com/100x100?text=3"
+    },
+    {
+      "id": "4",
+      "title": "Haunted House",
+      "description": "A teen dares to spend one night in a house with a dark past—and uncovers the truth.",
+      "poster": "/images/movie4.jpg",
+      "genreId": 4,
+      "year": 2020,
+      "country": "Canada",
+      "duration": 98,
+      "avatar": "https://via.placeholder.com/100x100?text=4"
+    }
+  ]
+}

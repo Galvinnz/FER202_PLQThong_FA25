@@ -11,7 +11,7 @@ import pizza5 from './pizza5.jpg';
 
 export default function Home() {
     return (
-        <div style={{ backgroundColor: '#333333', minHeight: '100vh' }}>
+        <div style={{ backgroundColor: '#333333', minHeight: '100vh', display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
             {/* Header */}
             <div style={{ backgroundColor: '#333333', padding: '15px 0' }}>
                 <div className="container d-flex align-items-center justify-content-between">
@@ -29,7 +29,9 @@ export default function Home() {
                         <a href="#" className="text-white text-decoration-none" style={{ fontSize: '16px' }}>About Us</a>
                         <a href="#" className="text-white text-decoration-none" style={{ fontSize: '16px' }}>Contact</a>
                     </div>
+                    {/* Search Form: Allows users to search for content (e.g., menu items). */}
                     <form className="d-flex" role="search" onSubmit={(e) => e.preventDefault()}>
+                        {/* Search Input: Text input field for entering search queries. */}
                         <div className="d-flex" style={{ width: 250 }}>
                             <input 
                                 className="form-control form-control-sm" 
@@ -42,6 +44,7 @@ export default function Home() {
                                     borderRight: 'none'
                                 }} 
                             />
+                            {/* Search Button: Submits the search form; includes a search icon. */}
                             <button 
                                 type="submit" 
                                 className="btn btn-danger"
@@ -220,8 +223,10 @@ export default function Home() {
                 <h2 className="text-white text-center mb-5" style={{ fontSize: '36px', fontWeight: 'bold' }}>Book Your Table</h2>
                 <div className="row justify-content-center">
                     <div className="col-md-8">
+                        {/* Reservation Form: Allows users to submit booking details for a table or service. */}
                         <div style={{ backgroundColor: 'white', padding: '40px', borderRadius: '10px' }}>
                             <div className="row mb-3">
+                                {/* Name Input: Captures the user's name for the reservation. */}
                                 <div className="col-md-4">
                                     <input 
                                         type="text" 
@@ -230,6 +235,7 @@ export default function Home() {
                                         style={{ padding: '12px' }}
                                     />
                                 </div>
+                                {/* Email Input: Captures the user's email for contact purposes. */}
                                 <div className="col-md-4">
                                     <input 
                                         type="email" 
@@ -238,6 +244,7 @@ export default function Home() {
                                         style={{ padding: '12px' }}
                                     />
                                 </div>
+                                {/* Service Select: Dropdown to choose the type of service (Dine In, Take Away, Delivery). */}
                                 <div className="col-md-4">
                                     <select className="form-control" style={{ padding: '12px' }}>
                                         <option>Select a Service</option>
@@ -247,6 +254,7 @@ export default function Home() {
                                     </select>
                                 </div>
                             </div>
+                            {/* Comment Textarea: Allows users to provide additional comments or requests. */}
                             <div className="mb-4">
                                 <textarea 
                                     className="form-control" 
@@ -255,6 +263,7 @@ export default function Home() {
                                     style={{ padding: '12px' }}
                                 ></textarea>
                             </div>
+                            {/* Submit Button: Submits the reservation form data. */}
                             <div className="text-center">
                                 <button 
                                     className="btn" 
@@ -274,6 +283,13 @@ export default function Home() {
                     </div>
                 </div>
             </div>
+            {/* Footer - add by Pham Le Quoc Thong */}
+            <footer style={{ backgroundColor: '#222', color: '#fff', padding: '24px 0', textAlign: 'center', marginTop: 'auto' }}>
+                <div className="container">
+                    <div style={{ fontSize: '18px', fontWeight: 'bold' }}>Pizza House &copy; 2025</div>
+                    <div style={{ fontSize: '14px', marginTop: '8px' }}>Delicious pizza, made with love. | add by Pham Le Quoc Thong</div>
+                </div>
+            </footer>
         </div>
     )
 }
