@@ -1,0 +1,76 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "alice",
+      "isAdmin": false
+    },
+    {
+      "id": "2",
+      "username": "bob",
+      "isAdmin": true
+    }
+  ],
+  "payments": [
+    {
+      "id": "1",
+      "amount": 100000,
+      "status": "SUCCESS"
+    },
+    {
+      "id": "2",
+      "amount": 50000,
+      "status": "FAILED"
+    },
+    {
+      "id": "5e51",
+      "amount": 1,
+      "status": "PENDING"
+    },
+    {
+      "id": "6424",
+      "amount": 1,
+      "status": "FAILED"
+    },
+    {
+      "id": "ed01",
+      "amount": 1,
+      "status": "FAILED"
+    },
+    {
+      "id": "6a88",
+      "amount": 1,
+      "status": "FAILED"
+    },
+    {
+      "id": "1539",
+      "amount": 112,
+      "status": "PENDING"
+    },
+    {
+      "id": "7166",
+      "amount": 112,
+      "status": "SUCCESS"
+    },
+    {
+      "id": "56e8",
+      "amount": 112,
+      "status": "SUCCESS"
+    },
+    {
+      "id": "1356",
+      "amount": 112,
+      "status": "SUCCESS"
+    },
+    {
+      "id": "213c",
+      "amount": 112,
+      "status": "FAILED"
+    },
+    {
+      "id": "0c8d",
+      "amount": 112,
+      "status": "PENDING"
+    }
+  ]
+}
